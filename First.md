@@ -53,3 +53,40 @@ x+y=z
 ## Obrazki
 
 ![Mapa](2021-12-22_07-15-56_mapa-siec-drogowa.png)
+
+![Kwiaty](2022-09-21_happy.jpg)
+
+## Listy
+
+1. One
+2. Three
+3. Four
+
+- book
+- letter
+- page
+- bookmark
+
+## Tabelki
+
+| Heading text | Definition text  |
+| ------------ | ---------------- |
+| Item A       | Deifinition of A |
+| Item B       | Definition of B  |
+| Item C       | Definition of C  |
+
+## Spis treści (odsyłacz)
+
+- [Tytuł](#tytuł)
+  - [Kot](#kot)
+  - [Płot](#płot)
+  - [I za płotem](#i-za-płotem)
+- [Wyróżnianie](#wyróżnianie)
+  - [Cytat](#cytat)
+  - [Równania](#równania)
+  - [Kod (wyróżnienie)](#kod-wyróżnienie)
+  - [Odsyłacze](#odsyłacze)
+  - [Obrazki](#obrazki)
+  - [Listy](#listy)
+  - [Tabelki](#tabelki)
+  - [Spis treści (odsyłacz)](#spis-treści-odsyłacz)
