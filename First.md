@@ -140,7 +140,7 @@ Smaki owoców tropikalnych:
 | :---- | :----: | ---:|
 | cytryna | :lemon: |kwaśny
 | mango | :mango: | słodki
-| grejprut | :graphefruit: | gorzki
+| grejprut | :grapefruit: | gorzki
 
 ---
 
@@ -161,7 +161,7 @@ Smaki owoców tropikalnych:
 <!--opis linku nawias kwadratowy, link wklejony w nawias okrągły-->
 <!--Opcja dwa wleić bezpośrednio link, bez tekstu alternatywnego, dodać tekst alternatywny-->
 
-![Ja i Markdown i DALL-E3](DALL-E3-lady-writing-markdown-1.jfif)
+![Ich troje: Ja, Markdown & DALL-E3](2023-11-20_18-21-13_markdown-mem-DallE3.jpg)
 
 ---
 
