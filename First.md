@@ -1,94 +1,174 @@
-# Tytuł
+# Markdown
 
-Pierwsze koty za płoty.
+<!--This is Title - Heading H1-->
 
-## Kot
+## Spis treści
 
-Kot kodu nie równy.
+- [Markdown](#markdown)
+  - [Brief introduction](#brief-intro-in-english)
+  - [Characteristis](#characteristic)
+  - [Advantages](#advantages)
+  - [Formatowanie](#formatowanie)
+    - [Pogrubienie](#pogrubienie)
+    - [Kursywa](#kursywa-__)
+    - [Cytat](#cytat--wyróżnienie)
+    - [Wykreślenie](#wykreślanie)
+    - [Lista nuerowana](#lista-numerowana-n)
+    - [Lista nienumerowana](#lista-nienumerowana)
+    - [Równanie](#równanie--2x-shift--enter)
+    - [Kod](#kod---wyróżnienie-6x--język-kodu)
+    - [Tabele](#tabele------z-wyrównywaniem)
+    - [Odsyłacze](#odsyłacze-zewnętrzne-w-komentarzu)
+    - [Obrazy](#obrazki-w-komentarzu)
+    - [Checklista](#checklista-formatów)
 
-## Płot
+## Brief Intro in English
 
-Płot z kłód to nie najlepszy pomysł.
+<!--This is Heading H2-->
 
-## I za płotem
+<!--This is text paragraph with *italics (alt. _), **bold (alt. __), lower text line by: 2x space + enter, new paragraph by: space + 2x enter-->
 
-At auctor urna nunc id cursus metus aliquam. Eget velit aliquet sagittis id consectetur purus ut. A arcu cursus vitae congue mauris rhoncus aenean.
+**Markdown** is a lightweight markup language.  
+Created by John Gruber in 2004.  
+Markdown file extension is _.md_ or _markdown_.
 
-Non nisi est sit amet. In arcu cursus euismod quis viverra nibh. Eget aliquet nibh praesent tristique magna sit amet purus gravida. Ut consequat semper viverra nam libero justo laoreet sit amet. Malesuada bibendum arcu vitae elementum curabitur vitae nunc sed. Sed adipiscing diam donec adipiscing tristique risus. Eget duis at tellus at urna condimentum mattis. Lobortis scelerisque fermentum dui faucibus in ornare. Ullamcorper sit amet risus nullam eget felis eget nunc lobortis. Iaculis eu non diam phasellus vestibulum. Aliquet sagittis id consectetur purus ut faucibus pulvinar elementum. Netus et malesuada fames ac turpis egestas sed tempus urna. Dignissim convallis aenean et tortor at risus viverra adipiscing at. Vel turpis nunc eget lorem dolor sed viverra.
+With application like MS Word or other you may compile a markdown file. These applications use a Markdown processor or parser which converts a markdown file to printable HTML code.
 
-# Wyróżnianie
+## Characteristic
+
+<!--This is unordered list-->
+
+Markdown is:
+
+- at present one of the world’s most popular markup languages.
+- a simple syntax that formats text as headers, lists, boldface, and so on.
+- holding numerous advantages.
+
+## Advantages
+
+<!--This is odereded list with external links-->
+
+1. Made for programmers and others alike.
+2. Convertible to formats like PDF, HTML, docs etc.
+3. May be used for writing complex emails in simple text.
+4. It is used to write formatted pages across various platforms like eg. Github, StackOverflow.
+5. Markdown Files can be converted to webpages with tools like [Github Pages](https://pages.github.com/), [Blot](blot.io), etc.
+
+## Formatowanie
+
+### Pogrubienie (\*\*)
 
 Eget _aliquet_ nibh **praesent** tristique magna sit amet purus gravida.
 
-## Cytat
+---
 
-> Aliquet sagittis id consectetur purus ut faucibus pulvinar elementum.
+### Kursywa (\_\_)
 
-> Aliquet sagittis id consectetur purus ut faucibus pulvinar elementum.
+Autorem poniższego cytatu jest _Bernice Johnson Reagon_
 
-> Aliquet sagittis id consectetur purus ut faucibus pulvinar elementum.
+---
 
-## Równania
+### Cytat -wyróżnienie (>)
 
-Aliquet sagittis id consectetur `x+y=z` purus ut faucibus pulvinar elementum.
+> Życiowe wyzwania nie powinny Cię paraliżować.  
+> Powinny pomóc Ci odkryć, kim naprawdę jesteś.
 
-## Kod (wyróżnienie)
+---
 
+### Wykreślanie (~~~~)
+
+~~NIe patrz za siebie~~ Patrz przed siebie.
+
+---
+
+### Lista numerowana (n.)
+
+1. Raz
+2. Dwa
+3. Trzy
+
+---
+
+### Lista nienumerowana (-)
+
+- szklanka
+- wazon
+- butelka
+
+---
+
+### Równanie (``, 2x shift + enter)
+
+Obciążenie na oś wagonu oblicza się wg wzoru:  
+`P=(G+q)/x`  
+gdzie:  
+Q - ciężar własny wagonu t  
+q - ciężar ładunku t  
+x - liczba osi wagonu
+
+---
+
+### Kod - wyróżnienie (6x`) + język kodu
+
+Ciąg Fibonacciego
+
+```Python
+n = 10
+
+fibo = [0]*(n)
+fibo[0] = 0
+fibo[1] = 1
+
+for i in range(2,n):
+  fibo[i] = fibo[i-1] + fibo[i-2]
+
+print(fibo)
 ```
-started_in = os.getcwd()
-   download_content(terminology_url, terminology_languages)
-   os.chdir(started_in)
-```
 
-```
-x+y=z
-```
+---
 
-## Odsyłacze
+### Tabele (|, :---:) z wyrównywaniem
 
-[Prognoza](https://meteo.pl/)
+Przykładowa tablica granic obciążeń wagonów:
+| Prędkość | A | B | C | D |
+| :------- | :---: | :---:| :---: | :---: |
+| S | 37,0 | 45,0 | 53,0 | 63,0 |
+| 120 | 0,00 |
 
-[https://meteo.pl/]
+Smaki owoców tropikalnych:
+| Owoc| Emoji | Smak
+| :---- | :----: | ---:|
+| cytryna | :lemon: |kwaśny
+| mango | :mango: | słodki
+| grejprut | :graphefruit: | gorzki
 
-## Obrazki
+---
 
-![Mapa](2021-12-22_07-15-56_mapa-siec-drogowa.png)
+### Odsyłacze zewnętrzne (w komentarzu)
 
-![Kwiaty](2022-09-21_happy.jpg)
+<!--opis linku nawias kwadratowy, link wklejony w nawias okrągły-->
 
-## Listy
+[Machine hallucinations - Refik Anadol Studio](https://refikanadol.com/works/machine-hallucinations-space-metaverse/?fbclid=IwAR1w9llGY0RxjgYAcj_zqkDAK60xdpuVrx7efIkVfL_K1uNTZgU__dD5uFc)
 
-1. One
-2. Three
-3. Four
+<!--Opcja 2. wleić w nawias okrągły link, bez tekstu alternatywnego, dodać nawias kwadratowy i tekst alternatywny-->
 
-- book
-- letter
-- page
-- bookmark
+(https://icolorpalette.com/color/pantone-2024-c)
 
-## Tabelki
+---
 
-| Heading text | Definition text  |
-| ------------ | ---------------- |
-| Item A       | Deifinition of A |
-| Item B       | Definition of B  |
-| Item C       | Definition of C  |
+### Obrazki (w komentarzu)
 
-## Spis treści (odsyłacz)
+<!--opis linku nawias kwadratowy, link wklejony w nawias okrągły-->
+<!--Opcja dwa wleić bezpośrednio link, bez tekstu alternatywnego, dodać tekst alternatywny-->
 
-- [Tytuł](#tytuł)
-  - [Kot](#kot)
-  - [Płot](#płot)
-  - [I za płotem](#i-za-płotem)
-- [Wyróżnianie](#wyróżnianie)
-  - [Cytat](#cytat)
-  - [Równania](#równania)
-  - [Kod (wyróżnienie)](#kod-wyróżnienie)
-  - [Odsyłacze](#odsyłacze)
-  - [Obrazki](#obrazki)
-  - [Listy](#listy)
-  - [Tabelki](#tabelki)
-  - [Spis treści (odsyłacz)](#spis-treści-odsyłacz)
+![Ja i Markdown i DALL-E3](DALL-E3-lady-writing-markdown-1.jfif)
+
+---
+
+### Checklista formatów(-[])
+
+- [ ] Wprowadzenie
+- [ ] Spis treści
+- [ ] Formatowanie
 
 <!--To jest komentarz-->
