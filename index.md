@@ -32,7 +32,8 @@
 Created by John Gruber in 2004.  
 Markdown file extension is _.md_ or _markdown_.
 
-With application like MS Word or other you may compile a markdown file. These applications use a Markdown processor or parser which converts a markdown file to printable HTML code.
+With application like MS Word or other you may compile a markdown file.
+These applications use a Markdown processor or parser which converts a markdown file to printable HTML code.
 
 ## Characteristic
 
@@ -100,7 +101,7 @@ Autorem poniższego cytatu jest _Bernice Johnson Reagon_
 ### Równanie (``, 2x shift + enter)
 
 Obciążenie na oś wagonu oblicza się wg wzoru:  
-`P=(G+q)/x`  
+`P=(Q+q)/x`  
 gdzie:  
 Q - ciężar własny wagonu t  
 q - ciężar ładunku t  
@@ -130,17 +131,19 @@ print(fibo)
 ### Tabele (|, :---:) z wyrównywaniem
 
 Przykładowa tablica granic obciążeń wagonów:
-| Prędkość | A | B | C | D |
-| :------- | :---: | :---:| :---: | :---: |
-| S | 37,0 | 45,0 | 53,0 | 63,0 |
-| 120 | 0,00 |
+
+| Prędkość |  A   |  B   |  C   |  D   |
+| :------- | :--: | :--: | :--: | :--: |
+| S        | 37,0 | 45,0 | 53,0 | 63,0 |
+| 120      | 0,00 |
 
 Smaki owoców tropikalnych:
-| Owoc| Emoji | Smak
-| :---- | :----: | ---:|
-| cytryna | :lemon: |kwaśny
-| mango | :mango: | słodki
-| grejprut | :kiwi fruit: | kwaśno-słodki
+
+| Owoc    |    Emoji     |          Smak |
+| :------ | :----------: | ------------: |
+| cytryna |   :lemon:    |        kwaśny |
+| mango   |   :mango:    |        słodki |
+| kiwi    | :kiwi fruit: | kwaśno-słodki |
 
 ---
 
