@@ -140,7 +140,7 @@ Smaki owoców tropikalnych:
 | :---- | :----: | ---:|
 | cytryna | :lemon: |kwaśny
 | mango | :mango: | słodki
-| grejprut | :grapefruit: | gorzki
+| grejprut | :kiwi fruit: | kwaśno-słodki
 
 ---
 
