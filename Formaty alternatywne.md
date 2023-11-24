@@ -14,11 +14,12 @@
 
 ### Wyliczanie bez listy numerowanej
 
-5\. matma  
-6\. chemia  
-versus lista numerowana\
-5. matma\
-6. chemia
+1\. matma  
+2\. chemia  
+versus lista numerowana
+
+1. matma
+2. chemia
 
 Składnia: _wstaw ' \ ' pomiedzy cyfrą a kropką._
 

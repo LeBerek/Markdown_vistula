@@ -37,7 +37,7 @@ Składania: _(\_tekst\_)_
 > Życiowe wyzwania nie powinny Cię paraliżować.  
 > Powinny pomóc Ci odkryć, kim naprawdę jesteś.
 
-Składania: _(> tekst, w każdej wyróżnianej linii)_
+Składania: _(\> tekst, w każdej wyróżnianej linii)_
 
 ---
 
@@ -122,7 +122,7 @@ Smaki owoców tropikalnych:
 | mango   |   :mango:    |        słodki |
 | kiwi    | :kiwi fruit: | kwaśno-słodki |
 
-Składania: _(|tworzy kolumny|, ----- wyznacza wiersze, :---: wyrównanie w kolumnach, emoji :nazwa:)_
+Składania: _(\|tworzy kolumny\|, \----- wyznacza wiersze, \---: wyrównanie w kolumnach, emoji \:nazwa:)_
 
 ---
 
@@ -132,7 +132,7 @@ Składania: _(|tworzy kolumny|, ----- wyznacza wiersze, :---: wyrównanie w kolu
 
 Składania: _(\[text]\(link), nawiasy bez odstępów)_
 
-http://icolorpalette.com/color/pantone-2024-c
+[]http://icolorpalette.com/color/pantone-2024-c
 
 Składania: _(wklejony link bez formatowania)_
 
@@ -142,7 +142,7 @@ Składania: _(wklejony link bez formatowania)_
 
 ![Ich troje: Ja, Markdown & DALL-E3](2023-11-20_18-21-13_markdown-mem-DallE3.jpg)
 
-Składnia: _![text](nazwa pliku zdjęcia)_
+Składnia: _![\text](nazwa pliku zdjęcia)_
 
 <!--Opcja dwa wleić bezpośrednio link, bez tekstu alternatywnego, dodać dymek-->
 
