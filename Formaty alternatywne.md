@@ -71,7 +71,7 @@ Składnia: _[\!\[text]\(url thumbnail filmu)]\(url YouTube filmu)_
 - [ ] Spis treści
 - [ ] Formatowanie
 
-Składnia: _(- \[space] tekst)_
+Składnia: _(- spacja \[space], spacja, tekst)_
 
 Wprowadzenie pojedynczej spacji pomiędzy nawias kwadratowy tworzy nieinteraktywny checkbox.  
 Na GHP tekst wyświetla się za nawiasem kwadratowym bez odstepu.
@@ -89,7 +89,7 @@ Alternatywa w formie tabeli (nieinteraktywna):
 
 Składnia: _(- \|tworzy kolumny\|, \----- wyznacza wiersze, \---: wyrównanie w kolumnach,znak encji HTML)_
 
-💡 Encje \&check; i \&cross; na podglądzie generują się poprawnie.
+💡 Encje \&check; i \&cross; w GHD na podglądzie poprawnie generują znaki.
 
 <!--To jest komentarz-->
 <!--Przykład opisu encji HTML-->
