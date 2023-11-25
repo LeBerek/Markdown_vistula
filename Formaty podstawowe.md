@@ -8,8 +8,8 @@ Spis treści:
 [Wykreślenie](#wykreślenie)  
 [Lista numerowana](#lista-numerowana)  
 [Lista wypunktowana](#lista-wypunktowana)  
-[Równanie](#równanie)  
-[Kod](#kod-blok)  
+[Równanie](#równanie---wyróżnienie)  
+[Kod](#kod---blok)  
 [Tabele](#tabele)  
 [Odsyłacze](#odsyłacze-zewnętrzne)  
 [Obrazy](#obrazy)
@@ -26,13 +26,13 @@ Składania: _(\*\*tekst\*\*)_
 
 ### Kursywa
 
-Autorem poniższego cytatu jest _Bernice Johnson Reagon_
+Autorem poniższego cytatu jest _Bernice Johnson Reagon._
 
 Składania: _(\_tekst\_)_
 
 ---
 
-### Cytat-wyróżnienie
+### Cytat - wyróżnienie
 
 > Życiowe wyzwania nie powinny Cię paraliżować.  
 > Powinny pomóc Ci odkryć, kim naprawdę jesteś.
@@ -69,7 +69,7 @@ Składania: _(-, spacja, opis)_
 
 ---
 
-### Równanie
+### Równanie - wyróżnienie
 
 Obciążenie na zestaw kołowy wagonu oblicza się wg wzoru:  
 `P=(Q+q)/x`  
@@ -84,7 +84,7 @@ Składania: _(\`wzór lub opis`)_
 
 ---
 
-### Kod-blok
+### Kod - blok
 
 Ciąg Fibonacciego
 
@@ -101,7 +101,10 @@ for i in range(2,n):
 print(fibo)
 ```
 
-Składania: _(\```kod, można dopisać język\```)_
+Składania: _(\`\`\`kod, można dopisać język kodu```)_
+
+Na podglądzie w VS Studio [kod z kolorowymi wyróżnikami funkcji](2023-11-24_0_kod-vs).  
+Markup oraz Github Markdown nie wspiera wprost wyróżniania kolorem elementów kodu.
 
 ---
 
@@ -116,13 +119,15 @@ Przykładowa tablica granic obciążeń wagonów:
 
 Smaki owoców tropikalnych:
 
-| Owoc    |    Emoji     |          Smak |
-| :------ | :----------: | ------------: |
-| cytryna |   :lemon:    |        kwaśny |
-| mango   |   :mango:    |        słodki |
-| kiwi    | :kiwi fruit: | kwaśno-słodki |
+| Owoc    | Emoji       |          Smak |
+| :------ | ----------- | ------------: |
+| cytryna | :lemon:     |        kwaśny |
+| mango   | :mango:     |        słodki |
+| ananas  | :pineapple: | kwaśno-słodki |
 
 Składania: _(\|tworzy kolumny\|, \----- wyznacza wiersze, \---: wyrównanie w kolumnach, emoji \:nazwa:)_
+
+Przy pierwszej probie z emoji, GitHub wyświetliły się na stronie 2 z trzech owoców. Kiedy używasz emoji sprawdź czy jest rozpoznawe przez GITHUB.
 
 ---
 
@@ -132,18 +137,29 @@ Składania: _(\|tworzy kolumny\|, \----- wyznacza wiersze, \---: wyrównanie w k
 
 Składania: _(\[text]\(link), nawiasy bez odstępów)_
 
-[]http://icolorpalette.com/color/pantone-2024-c
+Kolor roku 2024 http://icolorpalette.com/color/pantone-2024-c
 
-Składania: _(wklejony link bez formatowania)_
+Składania: _(text + wklejony link bez formatowania)_
+
+W podglądzie VS Code składnia text + link podświetlony.
+W GHW całość wyświetla się jako text.
 
 ---
 
 ### Obrazy
 
+To obraz wygenerowany promptem w DALL-E3.
+
 ![Ich troje: Ja, Markdown & DALL-E3](2023-11-20_18-21-13_markdown-mem-DallE3.jpg)
 
 Składnia: _![\text](nazwa pliku zdjęcia)_
 
-<!--Opcja dwa wleić bezpośrednio link, bez tekstu alternatywnego, dodać dymek-->
+![happy](2023-11-25_mark-mem-happy-L-DallE3-1.jpg "Happy with Markdown")
+
+Składnia: _![tekst](nazwa pliku zdjęcia "tekst dymku")_
+
+:bulb: Dlaczego po wklejeniu zdjęcia z dysku lokalnego, plik duplikuje się i nazwa pliku dostaje rozszerzenie np. "-1"?
+
+:bulb: Czy w repozytorium muszą być podwojne pliki?
 
 ---

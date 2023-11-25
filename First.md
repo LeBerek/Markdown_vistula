@@ -27,7 +27,7 @@ Aplikacje te używają procesora lub parsera Markdown, który konwertuje plik Ma
 
 <!--To jest lista wypunktowana-->
 
-Markdown:
+**Markdown**:
 
 - to obecnie jeden z najpopularniejszych języków znaczników na świecie.
 - ma prostą składnię, która formatuje tekst jako nagłówki, listy, pogrubienia itp.
