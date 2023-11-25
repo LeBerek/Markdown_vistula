@@ -103,7 +103,7 @@ print(fibo)
 
 Składania: _(\`\`\`kod, można dopisać język kodu```)_
 
-Na podglądzie w VS Studio [kod z kolorowymi wyróżnikami funkcji](2023-11-24_0_kod-vs).  
+Na podglądzie w VS Studio kod wyświetla się z kolorowymi wyróżnikami funkcji.  
 Markup oraz Github Markdown nie wspiera wprost wyróżniania kolorem elementów kodu.
 
 ---
@@ -119,15 +119,16 @@ Przykładowa tablica granic obciążeń wagonów:
 
 Smaki owoców tropikalnych:
 
-| Owoc    | Emoji       |          Smak |
-| :------ | ----------- | ------------: |
-| cytryna | :lemon:     |        kwaśny |
-| mango   | :mango:     |        słodki |
+| Owoc    |    Emoji    |          Smak |
+| :------ | :---------: | ------------: |
+| cytryna |   :lemon:   |        kwaśny |
+| jabłko  |   :apple:   |        słodki |
 | ananas  | :pineapple: | kwaśno-słodki |
 
 Składania: _(\|tworzy kolumny\|, \----- wyznacza wiersze, \---: wyrównanie w kolumnach, emoji \:nazwa:)_
 
-Przy pierwszej probie z emoji, GitHub wyświetliły się na stronie 2 z trzech owoców. Kiedy używasz emoji sprawdź czy jest rozpoznawe przez GITHUB.
+Przy pierwszej probie z emoji, GitHub wyświetliły się na stronie 2 z trzech owoców.  
+Kiedy używasz emoji sprawdź czy jest rozpoznawe przez GITHUB.
 
 ---
 
@@ -141,7 +142,7 @@ Kolor roku 2024 http://icolorpalette.com/color/pantone-2024-c
 
 Składania: _(text + wklejony link bez formatowania)_
 
-W podglądzie VS Code składnia text + link podświetlony.
+W podglądzie VS Code składnia text + link podświetlony.  
 W GHW całość wyświetla się jako text.
 
 ---
@@ -152,14 +153,14 @@ To obraz wygenerowany promptem w DALL-E3.
 
 ![Ich troje: Ja, Markdown & DALL-E3](2023-11-20_18-21-13_markdown-mem-DallE3.jpg)
 
-Składnia: _![\text](nazwa pliku zdjęcia)_
+Składnia: _!\[text](nazwa pliku zdjęcia)_
 
 ![happy](2023-11-25_mark-mem-happy-L-DallE3-1.jpg "Happy with Markdown")
 
-Składnia: _![tekst](nazwa pliku zdjęcia "tekst dymku")_
+Składnia: _!\[tekst](nazwa pliku zdjęcia "tekst dymku")_
 
-:bulb: Dlaczego po wklejeniu zdjęcia z dysku lokalnego, plik duplikuje się i nazwa pliku dostaje rozszerzenie np. "-1"?
+💡 Dlaczego po wklejeniu zdjęcia z dysku lokalnego, plik duplikuje się i nazwa pliku dostaje rozszerzenie np. "-1"?
 
-:bulb: Czy w repozytorium muszą być podwojne pliki?
+💡 Czy w repozytorium muszą być podwojne pliki?
 
 ---

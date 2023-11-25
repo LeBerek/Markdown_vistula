@@ -38,19 +38,19 @@ Składnia: _(cyfra., tab, \* )_
 
 ---
 
-### Zdjęcie z dymkiem
+### Zdjęcie z opisem i dymkiem
 
-![](2023-11-24_08-48-15_md-logo.jpg "Na białym tle czarna litera M i strzałka w dół w czarnej zaokrąglonej ramce. ")
+![Logo Markdown](2023-11-24_08-48-15_md-logo.jpg "Na białym tle czarna litera M i strzałka w dół w czarnej zaokrąglonej ramce. ")
 
-Składnia: _![text lub bez tekstu](nazwa pliku "tekst_dymku")_
+Składnia: _!\[text lub bez tekstu](nazwa pliku "tekst_dymku")_
 
 ---
 
 ### Link z opisem
 
-[Po godzinach](http://trianglify.io/) "generator wzorów"
+[Po godzinach](http://trianglify.io/ "generator wzorów")
 
-Składnia: _[text](url strony)"opis linku"_
+Składnia: _\[text]\(url strony "opis linku")_
 
 ---
 
@@ -58,7 +58,7 @@ Składnia: _[text](url strony)"opis linku"_
 
 [![Funkcja agreggate](https://i.ytimg.com/vi/MzqDoXgrmf8/hqdefault.jpg)](https://youtu.be/MzqDoXgrmf8?si=vmmgJhxLo7yzi0iO)
 
-Składnia: _[![text](url do thumbnail filmu)](link YT do filmu)_
+Składnia: _[\!\[text]\(url do thumbnail filmu)]\(link do YouTube filmu)_
 
 ---
 
@@ -68,9 +68,32 @@ Składnia: _[![text](url do thumbnail filmu)](link YT do filmu)_
 - [ ] Spis treści
 - [ ] Formatowanie
 
-Składnia: _(- [space] Opis)_
+Składnia: _(- \[space] text)_
+
+Wprowadzenie pojedynczej spacji pomiędzy nawias kwadratowy tworzy nieinteraktywnego checkboxa.
+
+Alternatywa w formie tabeli (nie interaktywna):
+
+| status   |    typ    | zadanie   |
+| -------- | :-------: | --------- |
+| &check;  | odhaczone | zadanie 1 |
+| &#x2611; | odhaczone | zadanie 2 |
+| \_       | bez haka  | zadanie 3 |
+| &#x2610; | bez haka  | zadanie 4 |
+| &cross;  |  krzyżyk  | zadanie 5 |
+| &#x2612; |  krzyżyk  | zadanie 6 |
+
+Składnia: _(- \|tworzy kolumny\|, \----- wyznacza wiersze, \---: wyrównanie w kolumnach,znak encji HTML)_
 
 <!--To jest komentarz-->
+<!--Przykład opisu encji HTML-->
+<!--znak encji HTML, który składa się z znaku ampersanda (&), znaku kratki (#), znaku x, numeru szesnastkowego 2610 i średnika (;)-->
+
+<!--Znalezione w sieci--
+|checked|unchecked|crossed|
+|---|---|---|
+|&check;|_|&cross;|
+|&#x2611;|&#x2610;|&#x2612;|--->
 
 ---
 
@@ -86,4 +109,5 @@ Składnia: _(- [space] Opis)_
     D ----> E[mkosztuj ze smakiem];
 ```
 
-Próba wstawienia Mermaid flowchart z zastosowaniem themes - bez powodzenia.
+💡 Próba wstawienia Mermaid flowchart z zastosowaniem themes - bez powodzenia. Dodanie rozszeżenia Markdown Preview Mermaid - nie wystarczyło.  
+💡 A może trzeba dać pełny dostęp dla rozszerzenia, żeby zadziało?
