@@ -1,6 +1,6 @@
-## Formaty alternatywne
+## Formatowanie alternatywne
 
-### Spis treści
+Spis treści
 
 [Wyliczanie bez listy numerowanej](#wyliczanie-bez-listy-numerowanej)  
 [Lista mieszana](#lista-mieszana)  
@@ -57,11 +57,11 @@ Składnia: _\[text]\(url strony "opis linku")_
 ### Link do YouTube
 
 Wstawienie linka do filmu YouTube nie generuje podglądu filmu.  
-Możesz Wstawić zdjęcie podglądu i url filmu.
+Alternatywnie można wstawić zdjęcie podglądu i url filmu.
 
 [![Funkcja agreggate](https://i.ytimg.com/vi/MzqDoXgrmf8/hqdefault.jpg)](https://youtu.be/MzqDoXgrmf8?si=vmmgJhxLo7yzi0iO)
 
-Składnia: _[\!\[text]\(url do thumbnail filmu)]\(link do YouTube filmu)_
+Składnia: _[\!\[text]\(url thumbnail filmu)]\(url YouTube filmu)_
 
 ---
 
@@ -71,24 +71,25 @@ Składnia: _[\!\[text]\(url do thumbnail filmu)]\(link do YouTube filmu)_
 - [ ] Spis treści
 - [ ] Formatowanie
 
-Składnia: _(- \[space] text)_
+Składnia: _(- \[space] tekst)_
 
-Wprowadzenie pojedynczej spacji pomiędzy nawias kwadratowy tworzy nieinteraktywnego checkboxa.
+Wprowadzenie pojedynczej spacji pomiędzy nawias kwadratowy tworzy nieinteraktywny checkbox.  
+Na GHP tekst wyświetla się za nawiasem kwadratowym bez odstepu.
 
-Alternatywa w formie tabeli (nie interaktywna):
+Alternatywa w formie tabeli (nieinteraktywna):
 
-| status   |    typ    | zadanie   |
-| -------- | :-------: | --------- |
+|  status  |    typ    | zadanie   |
+| :------: | :-------: | --------- |
 | &check;  | odhaczone | zadanie 1 |
 | &#x2611; | odhaczone | zadanie 2 |
-| \_       | bez haka  | zadanie 3 |
+|    \_    | bez haka  | zadanie 3 |
 | &#x2610; | bez haka  | zadanie 4 |
 | &cross;  |  krzyżyk  | zadanie 5 |
 | &#x2612; |  krzyżyk  | zadanie 6 |
 
 Składnia: _(- \|tworzy kolumny\|, \----- wyznacza wiersze, \---: wyrównanie w kolumnach,znak encji HTML)_
 
-💡 \&check; i \&cross; na podglądzie generuje się poprawnie.
+💡 Encje \&check; i \&cross; na podglądzie generują się poprawnie.
 
 <!--To jest komentarz-->
 <!--Przykład opisu encji HTML-->
@@ -114,5 +115,6 @@ Składnia: _(- \|tworzy kolumny\|, \----- wyznacza wiersze, \---: wyrównanie w 
     D ----> E[kosztuj ze smakiem];
 ```
 
-💡 Próba wstawienia Mermaid flowchart z zastosowaniem themes - bez powodzenia. Dodanie rozszeżenia Markdown Preview Mermaid - nie wystarczyło.  
-💡 A może trzeba dać pełny dostęp dla rozszerzenia, żeby zadziałało?
+💡 Próba wstawienia Mermaid flowchart z zastosowaniem themes - bez powodzenia.  
+Dodanie rozszeżenia Markdown Preview Mermaid - nie wystarczyło.  
+💡 Czy rozszerzenie z pełnym dostępem zadziałałoby lepiej?

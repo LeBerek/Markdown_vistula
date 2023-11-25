@@ -1,4 +1,4 @@
-# Markdown
+## Markdown
 
 <!--To jest nagłowek H1-->
 
@@ -8,7 +8,7 @@ Spis treści
 - [Charakterystyka](#charakterystyka)
 - [Zalety](#zalety)
 
-## Wprowadzenie
+### Wprowadzenie
 
 <!--To jest nagłowek H2-->
 
