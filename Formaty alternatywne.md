@@ -4,7 +4,7 @@
 
 [Wyliczanie bez listy numerowanej](#wyliczanie-bez-listy-numerowanej)  
 [Lista mieszana](#lista-mieszana)  
-[Zdjęcie z opisem](#zdjęcie-z-opisem)  
+[Zdjęcie z opisem](#zdjęcie-bez-opisu-i-dymkiem)  
 [Link z opisem](#link-z-opisem)  
 [Link do YouTube](#link-do-youtube)  
 [Checklista](#checklista-formatów)  
@@ -38,11 +38,11 @@ Składnia: _(cyfra., tab, \* )_
 
 ---
 
-### Zdjęcie z opisem i dymkiem
+### Zdjęcie bez opisu i dymkiem
 
-![Logo Markdown](2023-11-24_08-48-15_md-logo.jpg "Na białym tle czarna litera M i strzałka w dół w czarnej zaokrąglonej ramce. ")
+![](2023-11-24_08-48-15_md-logo.jpg "Na białym tle czarna litera M i strzałka w dół w czarnej zaokrąglonej ramce. ")
 
-Składnia: _!\[text lub bez tekstu](nazwa pliku "tekst_dymku")_
+Składnia: _!\[bez tekstu](nazwa pliku "tekst_dymku")_
 
 ---
 
@@ -55,6 +55,9 @@ Składnia: _\[text]\(url strony "opis linku")_
 ---
 
 ### Link do YouTube
+
+Wstawienie linka do filmu YouTube nie generuje podglądu filmu.  
+Możesz Wstawić zdjęcie podglądu i url filmu.
 
 [![Funkcja agreggate](https://i.ytimg.com/vi/MzqDoXgrmf8/hqdefault.jpg)](https://youtu.be/MzqDoXgrmf8?si=vmmgJhxLo7yzi0iO)
 
@@ -85,6 +88,8 @@ Alternatywa w formie tabeli (nie interaktywna):
 
 Składnia: _(- \|tworzy kolumny\|, \----- wyznacza wiersze, \---: wyrównanie w kolumnach,znak encji HTML)_
 
+💡 \&check; i \&cross; na podglądzie generuje się poprawnie.
+
 <!--To jest komentarz-->
 <!--Przykład opisu encji HTML-->
 <!--znak encji HTML, który składa się z znaku ampersanda (&), znaku kratki (#), znaku x, numeru szesnastkowego 2610 i średnika (;)-->
@@ -106,8 +111,8 @@ Składnia: _(- \|tworzy kolumny\|, \----- wyznacza wiersze, \---: wyrównanie w 
     B --tak--> C[słodka];
     B --nie--> D[wytrawna];
     C ----> E[kosztuj ze smakiem];
-    D ----> E[mkosztuj ze smakiem];
+    D ----> E[kosztuj ze smakiem];
 ```
 
 💡 Próba wstawienia Mermaid flowchart z zastosowaniem themes - bez powodzenia. Dodanie rozszeżenia Markdown Preview Mermaid - nie wystarczyło.  
-💡 A może trzeba dać pełny dostęp dla rozszerzenia, żeby zadziało?
+💡 A może trzeba dać pełny dostęp dla rozszerzenia, żeby zadziałało?

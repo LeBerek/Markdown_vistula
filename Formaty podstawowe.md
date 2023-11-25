@@ -127,8 +127,7 @@ Smaki owoców tropikalnych:
 
 Składania: _(\|tworzy kolumny\|, \----- wyznacza wiersze, \---: wyrównanie w kolumnach, emoji \:nazwa:)_
 
-Przy pierwszej probie z emoji, GitHub wyświetliły się na stronie 2 z trzech owoców.  
-Kiedy używasz emoji sprawdź czy jest rozpoznawe przez GITHUB.
+Przy pierwszej probie z emoji, w GHP na stronie wyświetliły się dwa z trzech emoji. Po korekcie opisu emoji przestały się wyświetlać na stronie. Warto sprawdzić czy wybrany format emoji Markdown jest rozpoznawany przez GHP.
 
 ---
 
@@ -143,13 +142,13 @@ Kolor roku 2024 http://icolorpalette.com/color/pantone-2024-c
 Składania: _(text + wklejony link bez formatowania)_
 
 W podglądzie VS Code składnia text + link podświetlony.  
-W GHW całość wyświetla się jako text.
+W GHP całość wyświetla się jako text.
 
 ---
 
 ### Obrazy
 
-To obraz wygenerowany promptem w DALL-E3.
+Obrazy wygenerowane z użyciem promptów w DALL-E3.
 
 ![Ich troje: Ja, Markdown & DALL-E3](2023-11-20_18-21-13_markdown-mem-DallE3.jpg)
 
