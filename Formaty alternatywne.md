@@ -21,7 +21,7 @@ versus lista numerowana
 1. matma
 2. chemia
 
-Składnia: _wstaw ' \ ' pomiedzy cyfrą a kropką._
+Składnia: `wstaw ' \ ' pomiedzy cyfrą a kropką.`
 
 ---
 
@@ -34,7 +34,7 @@ Składnia: _wstaw ' \ ' pomiedzy cyfrą a kropką._
    - w południe
    - wieczorem
 
-Składnia: _(cyfra., tab, \* )_
+Składnia: `(cyfra., tab, \* )`
 
 ---
 
@@ -42,7 +42,7 @@ Składnia: _(cyfra., tab, \* )_
 
 ![](2023-11-24_08-48-15_md-logo.jpg "Na białym tle czarna litera M i strzałka w dół w czarnej zaokrąglonej ramce. ")
 
-Składnia: _!\[bez tekstu](nazwa pliku "tekst_dymku")_
+Składnia: `!\[bez tekstu](nazwa pliku "tekst_dymku")`
 
 ---
 
@@ -50,7 +50,7 @@ Składnia: _!\[bez tekstu](nazwa pliku "tekst_dymku")_
 
 [Po godzinach](http://trianglify.io/ "generator wzorów")
 
-Składnia: _\[text]\(url strony "opis linku")_
+Składnia: `\[text]\(url strony "opis linku")`
 
 ---
 
@@ -61,17 +61,17 @@ Alternatywnie można wstawić zdjęcie podglądu i url filmu.
 
 [![Funkcja agreggate](https://i.ytimg.com/vi/MzqDoXgrmf8/hqdefault.jpg)](https://youtu.be/MzqDoXgrmf8?si=vmmgJhxLo7yzi0iO)
 
-Składnia: _[\!\[text]\(url thumbnail filmu)]\(url YouTube filmu)_
+Składnia: `[\!\[text]\(url thumbnail filmu)]\(url YouTube filmu)`
 
 ---
 
 ### Checklista formatów
 
 - [ ] Wprowadzenie
-- [ ] Spis treści
+- [x] Spis treści
 - [ ] Formatowanie
 
-Składnia: _(- spacja \[space], spacja, tekst)_
+Składnia: `(- spacja \[space], spacja, tekst)`
 
 Wprowadzenie pojedynczej spacji pomiędzy nawias kwadratowy tworzy nieinteraktywny checkbox.  
 Na GHP tekst wyświetla się za nawiasem kwadratowym bez odstepu.
@@ -87,7 +87,7 @@ Alternatywa w formie tabeli (nieinteraktywna):
 | &cross;  |  krzyżyk  | zadanie 5 |
 | &#x2612; |  krzyżyk  | zadanie 6 |
 
-Składnia: _(- \|tworzy kolumny\|, \----- wyznacza wiersze, \---: wyrównanie w kolumnach,znak encji HTML)_
+Składnia: `(- \|tworzy kolumny\|, \----- wyznacza wiersze, \---: wyrównanie w kolumnach,znak encji HTML)`
 
 💡 Encje \&check; i \&cross; w GHD na podglądzie poprawnie generują znaki.
 
