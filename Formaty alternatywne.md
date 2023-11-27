@@ -89,7 +89,7 @@ Alternatywa w formie tabeli (nieinteraktywna):
 
 Składnia: `|tworzy kolumny|, |-----| wyznacza wiersze, np. ---: wyrównanie w kolumnach, &____; znak encji HTML`
 
-💡 Encje \&check; i \&cross; w GHD na podglądzie poprawnie generują znaki.
+💡 Encje `&check;` i `&cross;` w GHD na podglądzie poprawnie generują znaki.
 
 <!--To jest komentarz-->
 <!--Przykład opisu encji HTML-->
@@ -115,6 +115,6 @@ Składnia: `|tworzy kolumny|, |-----| wyznacza wiersze, np. ---: wyrównanie w k
     D ----> E[kosztuj ze smakiem];
 ```
 
-💡 Próba wstawienia Mermaid flowchart z zastosowaniem themes - bez powodzenia.  
-Dodanie rozszeżenia Markdown Preview Mermaid - nie wystarczyło.  
+💡 Próba wstawienia 'Mermaid flowchart' z zastosowaniem themes - bez powodzenia.  
+Dodanie rozszeżenia 'Markdown Preview Mermaid' - nie wystarczyło.  
 💡 Czy rozszerzenie z pełnym dostępem zadziałałoby lepiej?
