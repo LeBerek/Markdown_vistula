@@ -115,6 +115,6 @@ Składnia: `|tworzy kolumny|, |-----| wyznacza wiersze, np. ---: wyrównanie w k
     D ----> E[kosztuj ze smakiem];
 ```
 
-💡 Próba wstawienia 'Mermaid flowchart' z zastosowaniem themes - bez powodzenia.  
-Dodanie rozszeżenia 'Markdown Preview Mermaid' - nie wystarczyło.  
+💡 Próba wstawienia `Mermaid flowchart` z zastosowaniem themes - bez powodzenia.  
+Dodanie rozszeżenia `Markdown Preview Mermaid` - nie wystarczyło.  
 💡 Czy rozszerzenie z pełnym dostępem zadziałałoby lepiej?
