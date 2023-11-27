@@ -20,7 +20,7 @@ Spis treści:
 
 Eget _aliquet_ nibh **praesent** tristique magna sit amet purus gravida.
 
-Składania: _(\*\*tekst\*\*)_
+Składania: `**tekst**`
 
 ---
 
@@ -28,7 +28,7 @@ Składania: _(\*\*tekst\*\*)_
 
 Autorem poniższego cytatu jest _Bernice Johnson Reagon._
 
-Składania: _(\_tekst\_)_
+Składania: `_tekst_`
 
 ---
 
@@ -37,7 +37,7 @@ Składania: _(\_tekst\_)_
 > Życiowe wyzwania nie powinny Cię paraliżować.  
 > Powinny pomóc Ci odkryć, kim naprawdę jesteś.
 
-Składania: _(\> tekst, w każdej wyróżnianej linii)_
+Składania: `> tekst, w każdej wyróżnionej linii`
 
 ---
 
@@ -45,7 +45,7 @@ Składania: _(\> tekst, w każdej wyróżnianej linii)_
 
 ~~NIe patrz za siebie~~ Patrz przed siebie.
 
-Składania: _(\~~tekst\~~)_
+Składania: `~~tekst~~`
 
 ---
 
@@ -55,7 +55,7 @@ Składania: _(\~~tekst\~~)_
 2. Dwa
 3. Trzy
 
-Składania: _(cyfra., spacja, tekst)_
+Składania: `cyfra., spacja, tekst`
 
 ---
 
@@ -65,7 +65,7 @@ Składania: _(cyfra., spacja, tekst)_
 - wazon
 - butelka
 
-Składania: _(-, spacja, opis)_
+Składania: `-, spacja, tekst`
 
 ---
 
@@ -78,7 +78,7 @@ gdzie:
 `q - ciężar ładunku t`  
 `x - liczba osi wagonu`
 
-Składania: _(\`wzór lub opis`)_
+Składania: \``wzór lub opis`\`
 
 <!--oddzielić wiersze 2x spacja + Enter-->
 
@@ -101,7 +101,7 @@ for i in range(2,n):
 print(fibo)
 ```
 
-Składania: _(\`\`\`kod, można dopisać język kodu```)_
+Składania: \`\`\``kod, można dopisać język kodu`\```
 
 Na podglądzie w VS Studio kod wyświetla się z kolorowymi wyróżnikami funkcji.  
 Markup oraz Github Markdown nie wspiera wprost wyróżniania kolorem elementów kodu.
@@ -125,7 +125,7 @@ Smaki owoców tropikalnych:
 | jabłko  |   :apple:   |        słodki |
 | ananas  | :pineapple: | kwaśno-słodki |
 
-Składania: _(\|tworzy kolumny\|, \----- wyznacza wiersze, \---: wyrównanie w kolumnach, emoji \:nazwa:)_
+Składania: `|tworzy kolumny|, | ----- | wyznacza wiersze, np. ---: wyrównanie w kolumnach, emoji :nazwa:`
 
 Przy pierwszej probie z emoji, w GHP na stronie wyświetliły się dwa z trzech emoji. Po korekcie opisu emoji przestały się wyświetlać na stronie. Warto sprawdzić czy wybrany format emoji Markdown jest rozpoznawany przez GHP.
 
@@ -135,11 +135,11 @@ Przy pierwszej probie z emoji, w GHP na stronie wyświetliły się dwa z trzech 
 
 [Machine hallucinations - Refik Anadol Studio](http://refikanadol.com/works/machine-hallucinations-space-metaverse/?fbclid=IwAR1w9llGY0RxjgYAcj_zqkDAK60xdpuVrx7efIkVfL_K1uNTZgU__dD5uFc)
 
-Składania: _(\[text]\(link), nawiasy bez odstępów)_
+Składania: `[text](link), nawiasy bez odstępów`
 
 Kolor roku 2024 http://icolorpalette.com/color/pantone-2024-c
 
-Składania: _(text + wklejony link bez formatowania)_
+Składania: `text + wklejony link bez formatowania`
 
 W podglądzie VS Code składnia text + link podświetlony.  
 W GHP całość wyświetla się jako text.
@@ -152,11 +152,11 @@ Obrazy wygenerowane z użyciem promptów w DALL-E3.
 
 ![Ich troje: Ja, Markdown & DALL-E3](2023-11-20_18-21-13_markdown-mem-DallE3.jpg)
 
-Składnia: _!\[text](nazwa pliku zdjęcia)_
+Składnia: `![text](nazwa pliku zdjęcia)`
 
 ![happy](2023-11-25_mark-mem-happy-L-DallE3-1.jpg "Happy with Markdown")
 
-Składnia: _!\[tekst](nazwa pliku zdjęcia "tekst dymku")_
+Składnia: `[tekst](nazwa pliku zdjęcia "tekst dymku")`
 
 💡 Dlaczego po wklejeniu zdjęcia z dysku lokalnego, plik duplikuje się i nazwa pliku dostaje rozszerzenie np. "-1"?
 
