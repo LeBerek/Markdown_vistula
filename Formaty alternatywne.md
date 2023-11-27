@@ -21,7 +21,7 @@ versus lista numerowana
 1. matma
 2. chemia
 
-Składnia: `wstaw ' \ ' pomiedzy cyfrą a kropką`
+Składnia: `wstaw \ pomiedzy cyfrą a kropką`
 
 ---
 
@@ -71,7 +71,7 @@ Składnia: `[![text](url thumbnail filmu)](url YouTube filmu)`
 - [x] Spis treści
 - [ ] Formatowanie
 
-Składnia: `-, spacja [spacja lub krzyżyk], spacja, tekst)`
+Składnia: `-, spacja [spacja lub krzyżyk], spacja, tekst`
 
 Wprowadzenie pojedynczej spacji pomiędzy nawias kwadratowy tworzy nieinteraktywny checkbox.  
 Na GHP tekst wyświetla się za nawiasem kwadratowym bez odstepu.
@@ -87,7 +87,7 @@ Alternatywa w formie tabeli (nieinteraktywna):
 | &cross;  |  krzyżyk  | zadanie 5 |
 | &#x2612; |  krzyżyk  | zadanie 6 |
 
-Składnia: `|tworzy kolumny|, |-----| wyznacza wiersze, | ---: wyrównanie w kolumnach, &____; znak encji HTML`
+Składnia: `|tworzy kolumny|, |-----| wyznacza wiersze, np. ---: wyrównanie w kolumnach, &____; znak encji HTML`
 
 💡 Encje \&check; i \&cross; w GHD na podglądzie poprawnie generują znaki.
 

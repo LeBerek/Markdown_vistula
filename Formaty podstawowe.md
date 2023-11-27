@@ -78,7 +78,7 @@ gdzie:
 `q - ciężar ładunku t`  
 `x - liczba osi wagonu`
 
-Składania: \``wzór lub opis`\`
+Składania: \``wzory, opisy lub linijka kodu`\`
 
 <!--oddzielić wiersze 2x spacja + Enter-->
 
